@@ -1,19 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import SearchResultsPage from './pages/SearchResultsPage';
 
-function App() {
-  return (
-    <Router>
-      <div className="app">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/search" element={<SearchResultsPage />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <p>
+//           Edit <code>src/App.tsx</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React
+//         </a>
+//       </header>
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
